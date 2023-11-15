@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 114",
+    "not and_ff <= 115",
+    "not chrome <= 114",
+    "not edge <= 114",
+    "not firefox <= 115",
+    "not ios_saf <= 16.5",
+    "not opera <= 100",
+    "not safari <= 16.5",
+    "not samsung <= 21"
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/name-role-value": "off",
+    "axe/structure": "off"
+  }
+}
